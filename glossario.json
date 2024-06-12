@@ -1,0 +1,62 @@
+[
+    {
+        "term": "IPv4 comprimento",
+        "definition": "2^32 (4294967296) de endereços em seu total."
+    },
+    {
+        "term": "IPv6 comprimento",
+        "definition": "128 bits de comprimento"
+    },
+    {
+        "term": "Tipos de IPv6",
+        "definition": "UNICAST ANYCAST MULTICAST"
+    },
+    {
+        "term": "Unicast",
+        "definition": "Responsável por identificar unicamente uma interface de rede."
+    },
+    {
+        "term": "Multicast",
+        "definition": "é utilizado para identificar um grupo de interfaces."
+    },
+    {
+        "term": "Anycast",
+        "definition": "é utilizado para identificar um grupo de interfaces, mas diferente do Multicast, o pacote destinado à um endereço Anycast é entregue somente à interface mais próxima da origem, enquanto o Multicast entrega a todos os participantes do grupo."
+    },
+    {
+        "term": "IPv6 Campos principais:",
+        "definition": "•Version (4 bits): Indica a versão do protocolo (IPv6).\n\n•Source Address (128 bits): Endereço IPv6 de origem.\n\n•Destination Address (128 bits): Endereço IPv6 de destino.\n\n\n•Traffic Class (8 bits): Diferenciação de serviços, similar ao Type of Service no IPv4.\n\n•Flow Label (20 bits): Usado para identificar fluxos de pacotes que requerem tratamento especial.\n\n•Payload Length (16 bits): Comprimento do payload (dados) após o cabeçalho IPv6.\n\n•Next Header (8 bits): Indica o tipo do próximo cabeçalho (TCP, UDP, cabeçalho de extensão, etc.).\n\n•Hop Limit (8 bits): Número máximo de saltos que o pacote pode fazer (similar ao TTL no IPv4)."
+    },
+    {
+        "term": "Benefícios",
+        "definition": "A autoconfiguração de endereços permite que dispositivos conectados obtenham automaticamente um endereço IPv6 válido sem a necessidade de um servidor DHCP"
+    },
+    {
+        "term": "Resumo",
+        "definition": ", o IPv6 utiliza uma notação hexadecimal e introduz um conjunto de regras específicas para configurar endereços, incluindo endereços unicast, multicast e anycast."
+    },
+    {
+        "term": "Como um host IPv6 obtém seu endereço IP automaticamente?",
+        "definition": "através de:\n   - Autoconfiguração Stateless (SLAAC): O host gera um endereço baseado no prefixo de rede anunciado por um roteador local."
+    },
+    {
+        "term": "TCP (Transmission Control Protocol)",
+        "definition": "Protocolo de transporte orientado à conexão que garante a entrega ordenada e confiável de um fluxo de bytes entre aplicações rodando em hosts comunicantes."
+    },
+    {
+        "term": "UDP (User Datagram Protocol)",
+        "definition": "Protocolo de transporte sem conexão que permite a transmissão de datagramas sem garantia de entrega, ordem ou proteção contra duplicação."
+    },
+    {
+        "term": "Portas TCP/UDP",
+        "definition": "São identificadores numéricos usados para distinguir diferentes serviços ou aplicações em um host. Portas comuns incluem 80 para HTTP, 443 para HTTPS, 53 para DNS, etc."
+    },
+    {
+        "term": "Três vias de handshaking do TCP",
+        "definition": "Processo de estabelecimento de conexão TCP que inclui três passos"
+    },
+    {
+    "term": "Padrões Ethernet",
+    "definition": "Conjunto de tecnologias de rede e especificações padronizadas pelo IEEE para comunicação em redes locais (LAN)."
+    }
+]

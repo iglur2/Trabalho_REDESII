@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" >
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="https://unpkg.com/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://unpkg.com/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+        <script src="/script.js"></script>
+		<title>IPV6, TCP, UDP, and ethernet standards</title>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-md fixed-top navbar-dark">
+		</nav>
+		<section class="jumbotron mb-0 text-light text-center" style="padding-top:107px;position:relative;margin-top:0px;">
+			<h1 id="hero-heading">IPV6, TCP, UDP e Padrões de Internet</h1>
+			<p id="hero-desc" class="lead">Unm guia de apresentação e aprendizado</p>
+		</section>
+		
+		<div class="container-fluid pl-4 pr-4 py-4">
+			<div id="about" class="container-fluid">
+				<div class="row featurette py-5 text-dark">
+					<div class="col-md-7 order-md-2">
+						<h4 style="color:#330259;" class="featurette-heading">IPV6</h4>
+						<p class="lead">O IPv6, ou Internet Protocol version 6, é a versão mais recente do protocolo de Internet, projetado para substituir o IPv4 devido à exaustão dos endereços disponíveis. Com endereços de 128 bits, o IPv6 oferece uma quantidade vastamente maior de endereços IP, suportando o crescimento contínuo da Internet. Alguns dos protocolos importantes associados ao IPv6 incluem o NDP (Neighbor Discovery Protocol), que substitui o ARP do IPv4 para a descoberta de endereços de camada de link; o SLAAC (Stateless Address Autoconfiguration), que permite que dispositivos configurem automaticamente seus endereços IP sem a necessidade de um servidor DHCP; e o ICMPv6 (Internet Control Message Protocol for IPv6), usado para diagnósticos e mensagens de erro, essencial para a operação e gerenciamento de redes IPv6. Esses protocolos, em conjunto, garantem a funcionalidade, a escalabilidade e a eficiência das redes baseadas em IPv6.</p>
+                        <br>
+                        <P>Links de apoio</P>
+                        <a href="glossario_v2.html">GLOSSARIO</a> <br>
+                        <a href="https://www.ipv6.br/">IPV6BR</a>
+					</div>
+					<div class="col-md-5 order-md-1">
+						
+					</div>
+				</div><hr class="featurette-divider">
+				<div class="row featurette py-2 text-dark">
+					<div class="col-md-7">
+						<h4 style="color:#330259;" class="featurette-heading">TCP e UDP</h4>
+						<p class="lead">O TCP (Transmission Control Protocol) e o UDP (User Datagram Protocol) são os principais protocolos de transporte na Internet. O TCP é orientado à conexão, garantindo a entrega ordenada e confiável dos dados entre aplicações, utilizando um processo de handshaking de três vias (SYN, SYN-ACK, ACK) para estabelecer conexões e mecanismos de controle de fluxo e congestionamento. Já o UDP é sem conexão e permite a transmissão rápida de datagramas sem garantia de entrega ou ordem, sendo ideal para aplicações onde a velocidade é crucial e a perda de alguns pacotes não é crítica, como streaming de vídeo, jogos online e VoIP. Ambos equilibram a necessidade de confiabilidade e velocidade conforme os requisitos das aplicações.</p>
+                        <P>Links de apoio</P>
+                        <a href="glossario_v2.html">GLOSSARIO</a> <br>
+                        <a href="https://www.alura.com.br/artigos/quais-as-diferencas-entre-o-tcp-e-o-udp">Materia sobre o TCP e UDP</a>
+					</div>
+					<div class="col-md-5">
+						
+					</div>
+				</div>
+                <div class="row featurette py-5 text-dark">
+					<div class="col-md-7 order-md-2">
+						<h4 style="color:#330259;" class="featurette-heading">Protocolos Ethernet</h4>
+						<p class="lead">Os protocolos Ethernet, padronizados pelo IEEE 802.3, são essenciais para redes locais (LANs). Ethernet usa frames para encapsular dados, com endereços MAC de origem e destino. A tecnologia CSMA/CD gerencia o acesso ao meio e detecta colisões. Switches Ethernet encaminham pacotes de dados usando endereços MAC, enquanto VLANs segmentam a rede física em redes lógicas para maior segurança e eficiência. No modo full-duplex, Ethernet permite comunicação simultânea nos dois sentidos, otimizando a velocidade e a performance da rede.</p>
+                        <P>Links de apoio</P>
+                        <a href="glossario_v2.html">GLOSSARIO</a> <br>
+                        <a href="https://www.ieee.org/">IEEE</a>
+					<div class="col-md-5 order-md-1">
+						
+					</div>
+				</div>
+                
+                <hr class="featurette-divider">
+                <br>
+			</div>
+		</div>
+        <div class="container-fluid pl-4 pr-4 pt-5 pb-4 text-left text-dark">
+			<div class="container-fluid my-3 text-left text-dark">
+				<h4 style="color:#330259;">Quizes</h4>
+				<p> Teste seu conhecimento nos temas respondendo os quizes abaixo</p>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-md-4 my-2">
+						<img src="img/kahoot.png" height="70px" width="95px">
+						<a href="https://create.kahoot.it/details/024a9230-a083-4dca-87aa-ffbea7047426"><h4 class="my-2">Quiz IPV6</h4></a>
+					</div>
+					<div class="col-md-4 my-2">
+                        <img src="img/kahoot.png" height="70px" width="95px">
+						<a href="https://create.kahoot.it/details/afb24267-821a-423f-8641-25f48919de73"><h4 class="my-2">TCP e UDP</h4></a>
+					</div>
+					<div class="col-md-4 my-2">
+                        <img src="img/kahoot.png" height="70px" width="95px">
+						<a href="https://create.kahoot.it/details/25befc31-c7a1-4d40-a5d5-02eab334b0c7"><h4 class="my-2">Padrões ethermet</h4></a>
+					</div>
+				</div>
+			</div>
+		</div>
+        
+		<footer class="py-5">
+			<div class="container-fluid px-4">
+				<div class="row">
+				</div>
+				<hr>
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<p class="text-light mb-0">IPV6, TCP, UDP, and ethernet standards &copy; 2024. All Rights Reserved. <a href="https://www.pexels.com" style="text-decoration: underline;" class="text-light">Photos provided by Pexels</a></p>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
